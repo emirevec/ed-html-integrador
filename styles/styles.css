@@ -3,13 +3,33 @@
 
     /*font-family: 'Coiny', cursive;
     font-family: 'Roboto', sans-serif;*/
+    /*background-color: #FCEE21;*/
 
     * {
         box-sizing: border-box;
         font-family: 'Roboto', sans-serif;
+        background-color: rgb(227, 193, 255);
+    }
+/*Nav*/
+    nav {
+        position: sticky;
     }
 
+    nav h1 {
+        font-family: 'Coiny', regular;
+        font-size: 3.5rem;
+    }
+
+    nav a {
+        text-decoration: none;
+    }
+/*Header*/
     .guap {
         font-family: 'Coiny', cursive;
         font-size: 2.5rem;
     }
+/*Main*/
+
+/*Footer*/
+
+
