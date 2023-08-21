@@ -8,28 +8,34 @@
     * {
         box-sizing: border-box;
         background-color: rgb(227, 193, 255);
-        border: 1px solid black;
         font-family: 'Roboto', sans-serif;
+        /*Eliminar luego de terminar*/
+        border: 1px solid black;
         margin: 1px;
     }
 
 /*Nav*/
     nav {
-        position: sticky;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: .5rem;
+        
     }
 
     nav h1 {
         font-family: 'Coiny', regular;
-        font-size: 3.5rem;
+        font-size: 2.5rem;
     }
 
-    nav a {
+    nav div a {
         text-decoration: none;
+        font-size: 1.5rem;
     }
 /*Header*/
     .guap {
         font-family: 'Coiny', cursive;
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
 /*Main*/
 
