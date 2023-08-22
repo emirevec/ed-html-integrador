@@ -10,6 +10,10 @@
         background-color: rgb(227, 193, 255);
         font-family: 'Roboto', sans-serif;
         /*Eliminar luego de terminar*/
+        
+    }
+
+    .bb {
         border: 1px solid black;
         margin: 1px;
     }
