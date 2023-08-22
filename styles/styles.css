@@ -1,48 +1,74 @@
 /*Reglas generales*/
-    @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
 
-    /*font-family: 'Coiny', cursive;
+/*font-family: 'Coiny', cursive;
     font-family: 'Roboto', sans-serif;*/
-    /*background-color: #FCEE21;*/
+/*background-color: #FCEE21;*/
 
-    * {
-        box-sizing: border-box;
-        background-color: rgb(227, 193, 255);
-        font-family: 'Roboto', sans-serif;
-        /*Eliminar luego de terminar*/
-        
-    }
+* {
+    box-sizing: border-box;
+    background-color: rgb(227, 193, 255);
+    font-family: 'Roboto', sans-serif;
+}
 
-    .bb {
-        border: 1px solid black;
-        margin: 1px;
-    }
+/*Eliminar luego de terminar*/
+.bb {
+    border: 1px solid black;
+    margin: 1px;
+}
 
+.provisorio {
+    background-color: aqua;
+    height: 250px;
+    width: 450px;
+}
+
+body {
+    width: 100vw;
+}
+
+div div {
+    width: 450px;
+}
+
+/*Clases generales*/
+.flex {
+    display: flex;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.float-left {
+    float: left;
+}
 /*Nav*/
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: .5rem;
-        
-    }
+nav {
+    align-items: center;
+    padding: .5rem;
 
-    nav h1 {
-        font-family: 'Coiny', regular;
-        font-size: 2.5rem;
-    }
+}
 
-    nav div a {
-        text-decoration: none;
-        font-size: 1.5rem;
-    }
+nav h1 {
+    font-family: 'Coiny', regular;
+    font-size: 2.5rem;
+}
+
+nav div a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
 /*Header*/
-    .guap {
-        font-family: 'Coiny', cursive;
-        font-size: 3.5rem;
-    }
-/*Main*/
+.guap {
+    font-family: 'Coiny', cursive;
+    font-size: 3.5rem;
+}
+
+/*Main
+main :nth-child(2){
+    padding: 2rem;
+}*/
 
 /*Footer*/
-
-
