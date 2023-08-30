@@ -11,6 +11,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    width: 100vw;
+}
+
+div div {
+    width: 450px;
+}
+
 /*Eliminar luego de terminar*/
 .bb {
     border: 1px solid black;
@@ -20,14 +28,6 @@
 .provisorio {
     background-color: aqua;
     height: 250px;
-    width: 450px;
-}
-
-body {
-    width: 100vw;
-}
-
-div div {
     width: 450px;
 }
 
