@@ -12,7 +12,9 @@
 }
 
 body {
-    width: 100vw;
+    max-width: 75vw;
+    margin-left: 12.5vw;
+    box-sizing: border-box;
 }
 
 div div {
@@ -34,10 +36,27 @@ img {
     height: 250px;
     width: 450px;
 }
+.separador{
+    border-bottom: 1px solid black;
+    width: calc(100vw - 900px);
+    height: 50px;
+}
 
 /*Clases generales*/
 .flex {
     display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 .justify-evenly {
