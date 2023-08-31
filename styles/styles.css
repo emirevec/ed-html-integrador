@@ -12,8 +12,8 @@
 }
 
 body {
-    max-width: 75vw;
-    margin-left: 12.5vw;
+    max-width: 1000px;
+    margin-left: calc((100vw - 1000px)/2);
     box-sizing: border-box;
 }
 
