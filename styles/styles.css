@@ -38,8 +38,8 @@ img {
 }
 .separador{
     border-bottom: 1px solid black;
-    width: calc(100vw - 900px);
-    height: 50px;
+    padding-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
 /*Clases generales*/
