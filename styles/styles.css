@@ -89,8 +89,18 @@ nav div a {
     font-size: 3.5rem;
 }
 
-/*Main
-main :nth-child(2){
+/*Main*/
+#redes :nth-child(1) {
+        width: 90px;
+}
+
+#redes p, #redes h2 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #808080;
+}
+
+/*main :nth-child(2){
     padding: 2rem;
 }*/
 
