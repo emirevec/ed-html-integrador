@@ -69,9 +69,19 @@
                 </div>
             </div>
         </section>
-        <section id="contactos">
-            <p>¿Querés que nos contactemos con vos?</p>
-            <p>Envianos tu consulta >></p>
+        <section id="contactos" class="flex justify-evenly bb">
+            <div>
+                <p>¿Querés que nos contactemos con vos?</p>
+                <p>Envianos tu consulta >></p>
+            </div>
+            <div>
+                <form action="codigo.php" method="post">
+                    <label>Nombre *<input type="text" required placeholder="Juan Garcia"></input></label><br>
+                    <label>Email principal y de referencia *<input type="email" placeholder="info@mimail.com"></input></label><br>
+                    <label>Mensaje *<textarea required></textarea></label><br>
+                    <button>Enviar consulta<input type="reset" value="Borrar"></input></button>
+                </form>
+            </div>
         </section>
         <section id="redes" class="bb flex justify-evenly">
             <div>
