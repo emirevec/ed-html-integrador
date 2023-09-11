@@ -25,6 +25,10 @@ img {
     width: 450px;
 }
 
+.w-450 {
+    width: 450px;
+}
+
 /*Eliminar luego de terminar*/
 .bb {
     border: 1px solid black;
