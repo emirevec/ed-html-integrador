@@ -70,20 +70,23 @@
             </div>
         </section>
         <section id="contactos" class="flex justify-evenly bb">
-            <div class="w-450">
+            <div class="bb w-450">
                 <p>¿Querés que nos contactemos con vos?</p>
                 <p>Envianos tu consulta >></p>
             </div>
             <div class="w-450">
-                <form action="codigo.php" method="post">
-                    <label>Nombre *<input type="text" required placeholder="Juan Garcia"></input></label><br>
-                    <label>Email principal y de referencia *<input type="email" placeholder="info@mimail.com"></input></label><br>
-                    <label>Mensaje *<textarea required></textarea></label><br>
-                    <button>Enviar consulta<input type="reset" value="Borrar"></input></button>
+                <form class="bb" action="codigo.php" method="post">
+                    <label>Nombre<span>*</span><br></label><input type="text" required></input><br>
+                    <label>Email<span>*</span> <br><input type="email"></input></label><br>
+                    <label>Mensaje<span>*</span> <br><textarea required></textarea></label><br>
+                    <div class="flex justify-between">
+                        <button>Enviar consulta</button>
+                        <input id="btn-reset" type="reset" value="Borrar"></input>
+                    </div>
                 </form>
             </div>
         </section>
-        <section id="redes" class="bb flex justify-evenly">
+        <section id="redes" class="flex justify-evenly">
             <div>
                 <p>Redes</p>
                 <h2>Guapurras</h2>

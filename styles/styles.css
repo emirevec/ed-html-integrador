@@ -17,14 +17,6 @@ body {
     box-sizing: border-box;
 }
 
-div div {
-    width: 450px;
-}
-
-img {
-    width: 450px;
-}
-
 .w-450 {
     width: 450px;
 }
@@ -67,6 +59,10 @@ img {
     justify-content: space-evenly;
 }
 
+.justify-between {
+    justify-content: space-between;
+}
+
 .float-left {
     float: left;
 }
@@ -93,7 +89,50 @@ nav div a {
     font-size: 3.5rem;
 }
 
-/*Main*/
+/*<Main>*/
+
+/*Form*/
+form {
+    padding-left: 2.5rem;
+}
+
+label {
+    font-size: 10pt;
+    font-weight: bold;
+    margin-bottom: .1rem;
+}
+
+label span {
+    color: #C1272D;
+}
+
+input, textarea {
+    width: 400px;
+    height: 2rem;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+textarea{
+    height: 100px;
+}
+
+form div button, form div input {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    height: 2rem;
+    border-style: none;
+}
+
+#btn-reset {
+    width: auto;
+}
+
+/*Redes*/
 #redes :nth-child(1) {
         width: 90px;
 }
@@ -104,8 +143,11 @@ nav div a {
     color: #808080;
 }
 
+
 /*main :nth-child(2){
     padding: 2rem;
 }*/
+
+/*</Main>*/
 
 /*Footer*/
