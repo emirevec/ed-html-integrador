@@ -9,9 +9,9 @@
     <title>Web Guapurras</title>
 </head>
 <body>
-    <nav class="flex justify-evenly">
-        <h1>Guapurras</h1>
-        <div>
+    <nav class="flex justify-evenly gap-1">
+        <h1 class="w-450">Guapurras</h1>
+        <div class="w-450 flex justify-evenly">
             <a href="#">Inicio</a>
             <a href="#servicios">Servicios</a>
             <a href="#contactos">Contactos</a>
@@ -69,13 +69,13 @@
                 </div>
             </div>
         </section>
-        <section id="contactos" class="flex justify-evenly bb">
-            <div class="bb w-450">
+        <section id="contactos" class="flex justify-evenly">
+            <div class="w-450">
                 <p>¿Querés que nos contactemos con vos?</p>
                 <p>Envianos tu consulta >></p>
             </div>
             <div class="w-450">
-                <form class="bb" action="codigo.php" method="post">
+                <form action="codigo.php" method="post">
                     <label>Nombre<span>*</span><br></label><input type="text" required></input><br>
                     <label>Email<span>*</span> <br><input type="email"></input></label><br>
                     <label>Mensaje<span>*</span> <br><textarea required></textarea></label><br>
