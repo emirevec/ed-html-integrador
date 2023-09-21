@@ -52,7 +52,7 @@ body {
 }
 
 .margin-bottom {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem !important;
 }
 
 .justify-center {
@@ -185,13 +185,12 @@ form div button, form div input {
 
 footer {
     background-color: yellow;
-    margin-bottom: 2rem !important;
     padding: .5rem;
 }
 
 footer h1, footer a  {
     background-color: yellow;
-        text-decoration: none;
+    text-decoration: none;
     color: black;
     margin-block: 0;
 } 
