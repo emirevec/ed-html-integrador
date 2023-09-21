@@ -91,6 +91,18 @@ nav div a {
 
 /*<Main>*/
 
+/*Servicios*/
+
+#servicios h4{
+    font-size: 24pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#servicios li{
+    margin-bottom: 1rem;
+}
+
 /*Form*/
 form {
     padding-left: 2.5rem;
