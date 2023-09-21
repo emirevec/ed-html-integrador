@@ -73,9 +73,10 @@ body {
 
 .amarillo {
     background-color: yellow;
-    display: inline-block;
+    display: inline;    
     margin-block: 0;
 }
+
 /*Nav*/
 nav {
     align-items: center;
@@ -113,6 +114,17 @@ nav div a {
     margin-bottom: 1rem;
 }
 
+ol :last-child {
+    font-weight: bold;
+}
+
+/*Contactos*/
+
+.blancoynegro {
+    background-color: black;
+    color: white;
+    display: inline;
+}
 /*Form*/
 form {
     padding-left: 2.5rem;
