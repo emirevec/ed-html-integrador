@@ -117,6 +117,7 @@ nav div a {
     font-size: 24pt;
     font-weight: bold;
     text-transform: uppercase;
+    padding-left: 20px;
 }
 
 #servicios li{
