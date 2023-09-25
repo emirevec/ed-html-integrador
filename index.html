@@ -75,10 +75,10 @@
                 <p><b class="amarillo">Envianos tu consulta >></b></p>
             </div>
             <div class="w-450">
-                <form action="codigo.php" method="post">
-                    <label>Nombre<span>*</span><br></label><input type="text" required></input><br>
-                    <label>Email<span>*</span> <br><input type="email"></input></label><br>
-                    <label>Mensaje<span>*</span> <br><textarea required></textarea></label><br>
+                <form action="php/form.php" method="post">
+                    <label>Nombre<span>*</span><br></label><input type="text" name="nombre" required></input><br>
+                    <label>Email<span>*</span> <br><input type="email" name="email"></input></label><br>
+                    <label>Comentarios<span>*</span> <br><textarea name="comentarios" required></textarea></label><br>
                     <div class="flex justify-between w-400">
                         <button>Enviar consulta</button>
                         <input id="btn-reset" type="reset" value="Borrar"></input>
