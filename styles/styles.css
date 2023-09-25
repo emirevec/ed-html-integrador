@@ -19,6 +19,10 @@ hr {
     margin-bottom: 2.5rem;
 }
 
+a:hover {
+    font-weight: bold;
+}
+
 /*Clases generales*/
 .flex {
     display: flex;
