@@ -52,6 +52,14 @@ hr {
     align-items: center;
 }
 
+.flexdir-row{
+    flex-direction: row;
+}
+
+.flexdir-column{
+    flex-direction: column;
+}
+
 .float-left {
     float: left;
 }
