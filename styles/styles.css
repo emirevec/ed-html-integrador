@@ -172,7 +172,7 @@ form div button, form div input {
 }
 
 /*Redes*/
-#redes :nth-child(1) {
+#redes > * {
         width: 90px;
 }
 
