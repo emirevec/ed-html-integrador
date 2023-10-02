@@ -26,6 +26,7 @@ a:hover {
 /*Clases generales*/
 .flex {
     display: flex;
+    flex-direction: row;
 }
 
 .flex-wrap {
@@ -202,4 +203,19 @@ footer h1, footer a  {
 
 footer h1, footer p {
     margin-left: 1.5rem;    
+}
+
+/* Pantallas Medianas */
+@media screen and (max-width: 768px){
+    body{
+        max-width: 90%;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .w-45{
+        width: 90%;
+    }
 }
