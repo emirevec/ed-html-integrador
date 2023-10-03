@@ -92,6 +92,9 @@ a:hover {
 nav {
     align-items: center;
     padding: .5rem;
+    position: sticky;
+    top: 0;
+    
 }
 
 nav h1 {
@@ -214,6 +217,10 @@ footer h1, footer p {
 @media screen and (max-width: 768px){
     body{
         max-width: 90%;
+    }
+
+    nav{
+        position: static;
     }
 
     .flex {
